@@ -1,0 +1,33 @@
+ /* how and where to include white borders? border-style: hidden, da white? 
+    + Reihenfolge in CSS -> best practice? 
+    + da nur ein Paragraph existiert, bräuchte man hier eigentlich keine footer-id */
+
+@font-face {
+	font-family: RobotoCondensed-Light;
+	src: url("../fonts/RobotoCondensed-Light.ttf"); 
+} 
+
+h1, #footer {
+    font-family: RobotoCondensed-Light;
+}
+
+table {
+    font-family: sans-serif;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+table th {
+    background-color: #000;
+    color: #FFF;
+}
+
+.odd_table_row {
+    background-color: #EEE;
+}
+
+#footer {
+    font-style: italic;
+}
