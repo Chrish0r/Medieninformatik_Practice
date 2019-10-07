@@ -1,0 +1,39 @@
+/* Fragen:
+        - Best Practice: Reihenfolge der Selektoren wichtig?
+*/
+
+@font-face {
+    font-family: Roboto Condensed Light;
+    src: url("../fonts/RobotoCondensed-Light.ttf"); 
+}
+
+body {
+    font-family: 'Roboto Condensed Light';
+    background: #f0f0f0;
+}
+
+h1 {
+    padding: 25px;
+    margin-top: 15px; 
+    background-color: #c2185b;
+    color: #ffffff
+}
+
+img {
+    border-radius: 100%; 
+    width: 8%;
+}
+
+#footer {
+    background-color: #c2185b;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #0000ff;
+    font-weight: bold;
+}
+
+span {
+    color: #F24747;
+}
